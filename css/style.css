@@ -1,0 +1,147 @@
+header, main {
+  width: 98%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: beige;
+  }
+  section {
+    margin: 2px;
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  h1 {text-align: center;}
+  /* menu  */
+  nav, nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .sticky {
+    position: sticky;
+    top: 0px;
+    z-index: 99;
+    background: #666666;
+    display: flex;
+    justify-content: space-between;
+  }
+  nav ul {
+    margin: 0;
+    padding: 0;
+  }
+  nav li {
+    display: inline;
+    margin: 2vw;
+    list-style: none;
+  }
+  nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+  }
+  nav a div {
+    display: inline-block;
+    min-width: 150px;
+    text-align: center;
+  }
+  /*   -------    */
+  /*   presentation accueil    */
+  .flexi {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    background: #000000;
+  }
+  /*   -------    */
+    /*   realisation accueil    */
+  .centre {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+    background: #414b9b;
+  }
+    /*   -------    */
+      /*   Footer accueil   */
+  footer.basPg {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-around;
+    background: #41949b;
+  }
+  /*   -------    */
+    /*   haut CV    */
+  .hautPg {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: center;
+  }
+  .unTier {
+    width: 33%;
+    min-width: 250px;
+  }
+  .unTier>h2 {
+    margin: auto;
+  }
+  .unTier li {
+    list-style: none;
+  }
+  .container {
+    display: flex;
+  }
+    /*   -------    */
+    /*   contactez-moi    */
+  
+    /*   -------    */
+  .bordure {
+    border: 2px solid red;
+  }
+  .square {
+    width: 20%;
+    min-width: 250px;
+    padding: 10px;
+    margin: 10px;
+  }
+  .square1 {
+    width: 25%;
+    min-width: 300px;
+    padding: 10px;
+    margin: 10px;
+  }
+  .minsquare {
+    padding: 10px;
+    margin: 10px;
+    width: 70px;
+    height: 70px;
+  }
+  .rectangle {
+    width: 60%;
+    min-width: 450px;
+    padding: 10px;
+    margin: 10px;
+  }
+  .grosRectangle {
+    width: 75%;
+    padding: 10px;
+    margin: 10px;
+  }
+  .bg-violet {
+    background: violet;
+  }
+  .bg-blue {
+    background: blue;
+  }
+  .bg-green {
+    background: green;
+  }
+  .bg-yellow {
+    background: yellow;
+  }
+  .centrer {
+    margin-right: auto;
+    margin-left: auto;
+  }

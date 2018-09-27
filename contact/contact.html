@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta name="autor" content="Luc Berger"/>
+    <meta name="description" content="compétences de luc berger"/>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="../css/style.css"/>
+</head>
+<body>
+    <header class="bordure">
+        <h1>PortFolio de luc Berger
+            <br>Dévloppeur fullstack</h1>  
+    </header>      
+    <section class="sticky bordure">
+        <div class="minsquare bg-violet bordure">
+            <img src="../image/ves-logo-square-onblack.jpg"/>
+        </div>
+        <nav class="grosRectangle bg-violet bordure">
+            <ul>     
+                <li><a href="../index.html">
+                    <div>Accueil</div></a></li>
+                <li><a href="../competence/compe.html">
+                    <div>Compétences</div></a></li>
+                <li><a href="../cv/cv.html">
+                    <div>CV</div></a></li>
+                <li><a href="../realisation/realisation.html">
+                    <div>Mes réalisations</div></a></li>
+                <li><a href="../contact/contact.html">
+                    <div>Contactez-moi</div></a></li>
+            </ul>
+        </nav>
+    </section>      
+    <main>
+        <section class="bordure rectangle">
+            <form>
+                <div>
+                    <label for="nom">Nom :</label>
+                    <input type="text" name="nom" minlength=2 maxlength=13 required />
+                </div>
+                <div>
+                    <label for="prenom">Prénom :</label>
+                    <input type="text" name="prenom" autocomplete="off" minlength=2 maxlength=13 required />
+                </div>
+                <div>
+                    <label for="email">Email :</label>
+                    <input type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required />
+                </div>
+                <div>
+                    <label>Votre message</label>
+                    <input type="textarea"/>
+                </div>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+    <main>
+         
+    </main>    
+</body>
+</html>
